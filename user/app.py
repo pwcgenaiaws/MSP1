@@ -136,7 +136,7 @@ def upload_document():
 ## main method
 def main():
     
-    st.image("user\PwCLogo.png", width=200)
+    st.image("user/PwCLogo.png", width=200)
     st.title("Virtual Assitant for Managed Services")
     st.markdown("The assitant helps our team respond to managed services incidents by using previously recorded support incidents and performing RAG.") 
     st.write("Bedrock LLM used : Anthropic Claude 3 Sonnet v1")
